@@ -1,2 +1,2 @@
-# nathan-guillaume.be
+# Nathan-Guillaume.be
 My open source website.
