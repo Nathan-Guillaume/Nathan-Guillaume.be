@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        {% block stylesheets %}
+        <link rel="stylesheet" type="text/css" href="{{ asset('../assets/css/style.css') }}">
+        {% endblock %}
+        <title> Nathan Guillaume | Accueil</title>
+    </head>
+    {% block body %}
+    <body>
+        <header>
+            <p class="header-title"><b>Nathan Guillaume</b></p>
+            <nav>
+                <ul class="header-link">
+                    <li><a href="#">Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <a class="header-button" href="#">Contact</a>
+        </header>
+
+        <p class="presentation-title"><b>Nathan Guillaume</b></p>
+        <p class="presentation-text">Developer - 14 years</p>
+        <img src="{{ asset('../assets/img/me.png') }}" class="presentation-image">
+
+        <img src="{{ asset('../assets/img/wave-2.svg') }}" class="wave">
+        <img src="{{ asset('../assets/img/wave-3.svg') }}" class="wave">
+
+        <footer class="footer">
+            <img src="{{ asset('../assets/img/wave-1.svg') }}">
+        </footer>
+    </body>
+    {% endblock %}
+</html>

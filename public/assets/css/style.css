@@ -1,0 +1,97 @@
+@import url('./bulma.min.css');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans|Ubuntu|Poppins|Lato');
+
+body, button, input, select, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: #F6F8FB;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.header-title {
+    margin-right: auto;
+    font-size: 150%;
+}
+
+.header-link {
+    list-style: none;
+    display: flex;
+}
+
+.header-link li {
+    padding: 0px 20px;
+}
+
+.header-link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.header-link li a:hover {
+    color: #0088a9;
+}
+
+.header-button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: whitesmoke;
+}
+
+/* Middle */
+
+.presentation-title {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-size: 30px;
+}
+
+.presentation-text {
+    position: absolute;
+    left: 460px;
+    top: 44%;
+    font-size: 30px;
+}
+
+.presentation-image {
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    width: 500px;
+    height: 500px;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    top: 878px;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    width: 135%;
+    height: 100%;
+    left: -25px;
+    top: 100%;
+    bottom: 0;
+}
