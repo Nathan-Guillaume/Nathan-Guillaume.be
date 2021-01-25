@@ -1,9 +1,10 @@
 # Nathan-Guillaume.be
 
-This project is the basis of my start in **HTLM, CSS & JS**.
+This is my site that you can find on **https://nathan-guillaume.be/**.
 
 ## Useful links
 - https://developer.mozilla.org/fr/docs/Web/HTML
+- https://developer.mozilla.org/fr/docs/Web/CSS
 
 ## Developer
 - [Nathan Guillaume](https://github.com/Nathan-Guillaume)
