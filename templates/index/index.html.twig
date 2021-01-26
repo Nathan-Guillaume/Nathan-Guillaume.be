@@ -23,13 +23,18 @@
 
         <p class="presentation-title"><b>Nathan Guillaume</b></p>
         <p class="presentation-text">Developer - 14 years</p>
-        <img src="{{ asset('../assets/img/me.png') }}" class="presentation-image">
+
+        <li class="zoom-image">
+            <div class="zoom-image-big">
+                <img src="{{ asset('../assets/img/me.png') }}" class="presentation-image">
+            </div>
+        </li>
 
         <img src="{{ asset('../assets/img/wave-2.svg') }}" class="wave">
         <img src="{{ asset('../assets/img/wave-3.svg') }}" class="wave">
 
-        <footer class="footer">
-            <img src="{{ asset('../assets/img/wave-1.svg') }}">
+        <footer>
+            <img class="footer-wave" src="{{ asset('../assets/img/wave-1.svg') }}">
         </footer>
     </body>
     {% endblock %}

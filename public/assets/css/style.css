@@ -6,11 +6,52 @@ body, button, input, select, textarea {
 }
 
 html, body {
-    background-color: #F6F8FB;
+    /*background-color: #F6F8FB;*/
+    background-color: var(--background-color);
+    /*transition: background-color 3s, color 3s;*/
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.dark {
+    --title-color: #fff;
+    --boby-color: #afafaf;
+    --background-color: #181621;
+    --forceground-color: #211f2a;
+    --blend-mode: lighten;
+}
+
+.light {
+    --title-color: #fff;
+    --boby-color: #afafaf;
+    --background-color: #F6F8FB;
+    --forceground-color: #211f2a;
+    --blend-mode: lighten;
+}
+
+.zoom-image {
+}
+
+.zoom-image-big {
+    overflow: hidden;
+    padding: 2px;
+}
+
+.zoom-image-big > img {
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.zoom-image:hover > .zoom-image-big > img {
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
 }
 
 /* Header */
@@ -67,7 +108,7 @@ header {
 
 .presentation-text {
     position: absolute;
-    left: 460px;
+    left: 24%;
     top: 44%;
     font-size: 30px;
 }
@@ -88,11 +129,13 @@ header {
 
 /* Footer */
 
-.footer {
+.footer-wave {
     position: absolute;
-    width: 135%;
-    height: 100%;
-    left: -25px;
-    top: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1440px;
     bottom: 0;
+}
+
+.footer-text {
 }
