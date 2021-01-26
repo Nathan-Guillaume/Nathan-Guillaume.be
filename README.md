@@ -5,6 +5,7 @@ This is my site that you can find on **https://nathan-guillaume.be/**.
 ## Todo
 - Compatibility for all screen (Media query and "responsive")
 - Compatibility for phone
+- Add Vue.js
 
 ## Useful links
 - https://developer.mozilla.org/fr/docs/Web/HTML
